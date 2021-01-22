@@ -1,0 +1,39 @@
+#pingspace-logo{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#main-page{
+    height: 100%;
+    width:100%;
+}
+
+#pickjob-login-panel{
+    height: 300px;
+    width: 300px;
+    margin-left: 540px;
+    margin-top: 150px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 8px;
+}
+
+#pickjob-title{
+    font-size: 15px;
+    font-family:Quicksand;
+    font-weight:bold;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+#btnstartpickjob{
+    height: 40px;
+    width:125px;
+    font-family: Quicksand;
+    font-size: 12px;
+    text-align:center;
+    background-color:rgba(25,71,242,1);
+    margin-top:50px;
+    margin-left: 80px;
+    
+
+}
