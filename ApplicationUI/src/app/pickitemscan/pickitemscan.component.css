@@ -1,11 +1,143 @@
-#main-page{
+#page{
     height: 100%;
     width: 100%;
 }
 
 #left-panel{
     height: 100%;
-    width: 45%;
+    width: 44%;
     background-color: rgba(251,251,251,1);
+    margin-left: 5px;
+    margin-top: 5px;
     float:left;
+}
+
+#pickjob-no-title{
+    margin-left: 176px;
+    margin-top: 60px;
+    font-family: Quicksand;
+    font-size: 18px;
+}
+
+#pickjob-no-goal-ring{
+    position: absolute;
+    margin-top:30px;
+    margin-left:185px;   
+}
+
+#pickjob-no-outer-circle-ring{
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+#pickjob-no-circle-progress-bar{
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: rgba(251,251,251,1);
+    box-shadow: inset 1px 1px 7px 1px rgba(0,0,0,0.4);
+    position: absolute;
+}
+
+#goal-count{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    margin-left:78px;
+    margin-top: 40px;
+}
+
+#goal-count-number{
+    font-size: 18px;
+    font-weight: lighter;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 105px;
+}
+
+#scanning-panel{
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 75px;
+}
+
+#scanning-title{
+    font-size: 28px;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+#scanning-big-title{
+    font-size: 28px;
+}
+
+#scanning-small-title{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#itemlist-content{
+    margin-left: 45px;    
+    margin-top: 30px;
+}
+
+#scanning-batch{
+    margin-top: 15px;
+}
+
+.card{
+    height: 300px;
+    width: 480px;
+    border-style: none;
+    margin-left: 50px;
+    margin-top: 280px;
+}
+
+.card-body{
+    height: 100%;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+#card-left-panel{
+    width: 50%;
+    float:left;
+}
+
+#card-itemcode-title{
+    color: rgba(130,130,130,1);
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+
+#card-itemcode-list{
+    color: black;
+    font-family: Quicksand;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#card-right-panel{
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+#card-goal-title{
+    color: rgba(130,130,130,1);
+    margin-left: 120px;
+}
+
+#card-goal-list{
+    margin-top: 50px;
+    margin-left: 120px;
 }

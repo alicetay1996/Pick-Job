@@ -1,7 +1,68 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-<div id="main-page">
+<link rel="stylesheet" href="pickitemscan.component.css">
+<div id="page">
     <div id="left-panel">
-
+        <img src="../../assets/pingspace.jpg" style="height:35px;width:35px;">
+        <div id="pickjob-no-title">Pick Job No.: <span style="font-weight:bold;">P0000001</span> </div>
+       <div id="pickjob-no-goal-ring">
+        <div id="pickjob-no-outer-circle-ring">
+        </div> 
+            <div id="pickjob-no-circle-progress-bar">
+                <div id="goal-count">0</div>
+                <div id="goal-count-number">Goal: 11</div>
+            </div>
+       </div>
+        <div class="card">
+                <div class="card-body">
+                    <div id="card-left-panel">
+                       <div id="card-itemcode-title">
+                            Item Code
+                        </div>
+                        <div id="card-itemcode-list">
+                            70193.004 rev.001<br/>
+                            <span style="color: blue;">(50EA)</span>
+                            <br/><br/>
+                            77111.003-AAAA<br>
+                            <span style="color: blue;">(1 SET)</span>
+                            <br/><br/>
+                            77111.003-BBBB<br>
+                            <span style="color: blue;">(1 SET)</span>
+                            <br/><br/>
+                            70663.010<br>
+                            <span style="color: blue;">(1 SET)</span>
+                            <br/><br/>
+                             77111.003-CCCC<br>
+                             <span style="color: blue;">(1 SET)</span>
+                        </div>
+                    </div>
+                    <div id="card-right-panel">
+                        <div id="card-goal-title">
+                            Goal
+                        </div>
+                        <div id="card-goal-list">
+                            0/2
+                            <br/><br/><br/>
+                            0/3
+                            <br/><br/><br/>
+                            0/3
+                            <br/><br/><br/>
+                            0/2
+                            <br/><br/><br/>
+                            0/1
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
-
+    <div id="scanning-panel">
+        <div id="scanning-title"><span id="scanning-big-title">Scan Item . </span><span id="scanning-small-title">Pick</span></div>
+        <div id="scanning-batch">
+            <div class="badge bg-primary text-wrap" style="width: 6rem;font-size:15px;padding:10px;">000005</div> 
+            <div class="badge bg-primary text-wrap" style="width: 6rem;font-size:15px;padding:10px;">000005</div> 
+        </div> 
+            <div class="form-outline">
+                <input type="search" id="form1" class="form-control"/>
+                <label class="form-label" for="form1">Search</label>
+            </div>
+    </div>
 </div>
